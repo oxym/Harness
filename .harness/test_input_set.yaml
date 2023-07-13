@@ -1,0 +1,12 @@
+inputSet:
+  name: test_input_set
+  identifier: test_input_set
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Harness_1689201013242
+    properties:
+      ci:
+        codebase:
+          build: <+input>
+  object Object: pipeline.properties.ci.codebase
