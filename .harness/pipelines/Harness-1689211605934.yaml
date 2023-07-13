@@ -25,9 +25,15 @@ pipeline:
                   timeout: ""
                   type: Run
           platform:
-            arch: Amd64
             os: Linux
+            arch: Amd64
           runtime:
-            spec: {}
             type: Cloud
+            spec: {}
         type: CI
+  variables:
+    - name: name
+      type: String
+      description: ""
+      required: false
+      value: Tim
